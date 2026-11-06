@@ -5,17 +5,19 @@
 <h1 align="center">Idle Manager</h1>
 
 <p align="center">
-  Suas contas do <a href="https://pokeidle.io/app">pokeidle.io</a> abertas lado a lado no seu Mac, com a
-  raridade de cada Pokémon e um chat que conhece o jogo.
+  Suas contas do <a href="https://pokeidle.io/app">pokeidle.io</a> abertas lado a lado no seu computador,
+  com a raridade de cada Pokémon e um chat que conhece o jogo.
 </p>
 
 <p align="center">
   <a href="https://github.com/Yespxx/idle-manager-app/releases/latest"><img src="https://img.shields.io/github/v/release/Yespxx/idle-manager-app?label=vers%C3%A3o&color=f4b740&include_prereleases" alt="Versão mais recente"></a>
   <a href="https://github.com/Yespxx/idle-manager-app/releases"><img src="https://img.shields.io/github/downloads/Yespxx/idle-manager-app/total?label=downloads&color=a78bfa" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/macOS-chip%20Apple-4fd1c5" alt="macOS com chip Apple">
+  <img src="https://img.shields.io/badge/Windows%20e%20Mac-beta-4fd1c5" alt="Windows e Mac">
 </p>
 
 <p align="center">
+  <a href="https://github.com/Yespxx/idle-manager-app/releases/latest/download/Idle-Manager-windows.exe"><b>Baixar para Windows</b></a>
+  ·
   <a href="https://github.com/Yespxx/idle-manager-app/releases/latest/download/Idle-Manager-mac.dmg"><b>Baixar para Mac</b></a>
   ·
   <a href="#instalar">Como instalar</a>
@@ -30,7 +32,8 @@
 ## O que ele faz
 
 - **Até 4 contas lado a lado.** Cada conta abre o jogo com login próprio e continua caçando com a janela
-  minimizada. Se uma cair, o app recarrega sozinho e avisa. ⌘1 a ⌘4 trocam de conta.
+  minimizada. Se uma cair, o app recarrega sozinho e avisa. Ctrl+1 a Ctrl+4 (⌘1 a ⌘4 no Mac) trocam de
+  conta.
 - **Todos os seus Pokémon num lugar só.** IVs, potência, qualidade, nota, poder e a raridade de cada um,
   calculada pelas chances que o próprio jogo publica, de todas as contas numa tabela.
 - **Um chat que conhece o jogo.** Pergunte em português qual hunt fazer, quais são os seus Pokémon mais
@@ -52,7 +55,20 @@
 
 ## Instalar
 
-Serve para Macs com chip Apple (M1 em diante). Ainda não tem versão para Windows nem para Mac com Intel.
+### No Windows
+
+Serve para Windows 10 e 11 de 64 bits.
+
+1. Baixe o [**Idle-Manager-windows.exe**](https://github.com/Yespxx/idle-manager-app/releases/latest/download/Idle-Manager-windows.exe).
+   Se o navegador avisar que o arquivo não é baixado com frequência, escolha **Manter**.
+2. Dê dois cliques nele. Como o app ainda não tem assinatura da Microsoft, o Windows pode mostrar "O
+   Windows protegeu o computador": clique em **Mais informações** e depois em **Executar assim mesmo**.
+3. O app instala sozinho, sem pedir senha de administrador, e abre. Ele fica com atalho na Área de
+   Trabalho e no Menu Iniciar.
+
+### No Mac
+
+Serve para Macs com chip Apple (M1 em diante). Mac com Intel ainda não tem versão.
 
 1. Baixe o [**Idle-Manager-mac.dmg**](https://github.com/Yespxx/idle-manager-app/releases/latest/download/Idle-Manager-mac.dmg).
 2. Dê dois cliques nele e arraste o **Idle Manager** para a pasta Aplicativos.
@@ -68,15 +84,15 @@ Depois disso, ele abre normalmente pelo Launchpad ou pelo Spotlight (⌘ espaço
 
 ### Atualizar
 
-Baixe o `.dmg` de novo pelo mesmo link e arraste o app para Aplicativos, substituindo o antigo. As suas
-contas, logins e dicas continuam onde estavam.
+Baixe o instalador de novo pelo mesmo link. No Windows, é só rodar; no Mac, arraste o app para
+Aplicativos, substituindo o antigo. As suas contas, logins e dicas continuam onde estavam.
 
 ## Primeiros passos
 
 1. Clique em **Nova conta**, dê um apelido e faça login na página do jogo que abre dentro do app. Prefira
    Discord ou e-mail: o Google pode bloquear login dentro de apps.
-2. Para recarregar ou remover uma conta, clique nela com o botão direito. ⌘B recolhe a barra lateral e o
-   jogo fica maior.
+2. Para recarregar ou remover uma conta, clique nela com o botão direito. Ctrl+B (⌘B no Mac) recolhe a
+   barra lateral e o jogo fica maior.
 3. A aba **Pokémon** se enche sozinha conforme o jogo carrega cada conta.
 
 ### Ligar o chat
@@ -86,7 +102,7 @@ com um cadastro só. Você paga só o que usar, centavos por pergunta.
 
 1. Crie uma conta na OpenRouter, coloque créditos e crie uma chave em
    [openrouter.ai/keys](https://openrouter.ai/keys). Dica: coloque um limite de gasto na chave.
-2. No app, abra a aba **Chat** e cole a chave. Ela fica cifrada no seu Mac.
+2. No app, abra a aba **Chat** e cole a chave. Ela fica cifrada no seu computador.
 3. Escolha o modelo no topo do chat. Cada um mostra a faixa de preço, de $ (bem barato) a $$$$, e o custo
    real aparece embaixo de cada resposta.
 
@@ -107,7 +123,7 @@ Wiki não diz, e o chat passa a usar.
 
 ## Perguntas frequentes
 
-**Funciona no Windows?** Ainda não. Por enquanto só no Mac com chip Apple.
+**Funciona no Windows?** Sim, no Windows 10 e 11 de 64 bits. No Mac, só nos com chip Apple por enquanto.
 
 **Posso ser banido por usar?** O app não automatiza nada e respeita o limite de 4 contas, que é o que os
 termos do pokeidle.io pedem. Ainda assim, quem decide é o jogo: leia os termos dele.
